@@ -30,5 +30,14 @@ printf("A subtração das suas idades é: %.2f \n", subtracao);
 printf("A multiplicação das suas idades é: %.2f \n", multiplicacao);
 printf("A divisão das suas idades é: %.2f \n", divisao);
 
+string seu_nome, nome_do_pai;
+
+std::cout << "Por último mas não menos importante, qual o seu nome? " << endl;
+std::cin >> seu_nome;
+cout << "Qual o nome do teu pai? "<< endl;
+cin >> nome_do_pai;
+
+std::cout << "Você se chama "<< seu_nome << " e seu pai se chama "<< nome_do_pai << '\n';
+
 return 0;
 }
